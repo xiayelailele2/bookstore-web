@@ -17,6 +17,9 @@
       </el-table-column>
     </el-table>
 
+    <!-- 子组件：书籍详情弹窗 -->
+    <BookDetail ref="bookDetailRef" :book-name="selectBookName" :author="selectBookAuthor"/>
+
   </div>
 </template>
 
